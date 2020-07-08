@@ -61,7 +61,7 @@ def process_sources(sources_list):
 
 	return sources_results
 
-def get_articles(id):
+def get_articles(id):        
 	'''
 	Function that processes the articles and returns a list of articles objects
 	'''
