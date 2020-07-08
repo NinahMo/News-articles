@@ -18,7 +18,7 @@ def create_app(config_name):
 	app.register_blueprint(main_blueprint)
 
 	
-	from .requests import configure_request
+	from .requests import configure_request      
 	configure_request(app)
 
 	return app
